@@ -1,9 +1,22 @@
 <h2 align="center">
   One-shot Embroidery Customization <br> via Contrastive LoRA Modulation
 </h2>
-<p align="center"><a href=""><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
-<a href=https://style3d.github.io/embroidery_customization><img src='https://img.shields.io/badge/Project_Page-Website-green?logo=googlechrome&logoColor=white' alt='Project Page'></a>
-<p align="center"><img src="assets/images/representative_image.jpg" width="100%"></p>
+
+<p align="center">
+  <a href="">
+    <img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'>
+  </a>
+  <a href="https://style3d.github.io/embroidery_customization">
+    <img src='https://img.shields.io/badge/Project_Page-Website-green?logo=googlechrome&logoColor=white' alt='Project Page'>
+  </a>
+  <a href="https://huggingface.co/Style3D/EmoLoRA">
+    <img src="https://img.shields.io/badge/HuggingFace-EmoLoRA-yellow?logo=huggingface&logoColor=white" alt="HuggingFace Model">
+  </a>
+</p>
+
+<p align="center">
+  <img src="assets/images/representative_image.jpg" width="100%">
+</p>
 
 
 > Diffusion models have significantly advanced image manipulation techniques, and their ability to generate photorealistic images is beginning to transform retail workflows, particularly in presale visualization. Beyond artistic style transfer, the capability to perform fine-grained visual feature transfer is becoming increasingly important.
@@ -21,7 +34,7 @@ git clone https://github.com/Style3D/embroidery_customization-impl.git
 cd embroidery_customization-impl
 ```
 
-2. Create and activate a virtual environment (venv)**
+2. Create and activate a virtual environment (venv)
 
 ```
 python3 -m venv venv
@@ -39,6 +52,13 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
+
+### Pretrained Model
+
+We release the pretrained EmoLoRA model on HuggingFace:
+
+👉 **HuggingFace Model:**  
+https://huggingface.co/Style3D/EmoLoRA
 
 ### Inference
 
